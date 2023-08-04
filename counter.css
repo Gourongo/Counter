@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #344954;
+}
+.counterBox{
+    width: 800px;
+    height: 500px;
+    margin-top: 200px;
+    background-color: #979c9e;
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px white;
+}
+.count{
+    font-style: italic;
+    font-size: 100px;
+}
+.counterBox h1{
+    color: #001623;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+
+.buttongroup{
+    margin-top: 80px;
+}
+.buttongroup button{
+    background-color: #001623;
+}
+.decrease:hover{
+    background-color: rgb(141, 22, 22) !important;
+}
+.reset:hover{
+    background-color: #04334f !important;
+}
+.increase:hover{
+    background-color: rgb(17, 82, 17) !important;
+}
